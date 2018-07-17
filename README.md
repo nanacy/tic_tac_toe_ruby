@@ -3,6 +3,7 @@
 Pair-programming : CASSAND Nancy ft CASSAND Gwendoline
 
 Le programme possède 4 fichiers qui contiennent chacun une classe:
+	
 	-Game
 		(permet de lancer le jeu et d'instancifier les 2 joueurs[Player] ainsi que le plateau[Board])
 
