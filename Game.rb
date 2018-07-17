@@ -122,5 +122,12 @@ end
 #return FALSE = EGALITE
 
 #####################################################
-jeu = Game.new()
-jeu.main
+
+
+loop do
+	jeu = Game.new()
+	jeu.main
+
+	puts "Voulez vous refaire une partie ?(o/n)"
+	break if gets.chomp == "n"
+end
